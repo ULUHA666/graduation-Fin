@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>情報を修正する</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- ESモジュールとしてスクリプトを読み込む -->
+  <script type="module" src="js/edit-profile.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>情報を修正する</h1>
+    <div id="message"></div>
+    <form id="edit-profile-form">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="name">名前:</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="address">住所:</label>
+        <input type="text" id="address" required>
+      </div>
+      <div class="form-group">
+        <label for="profile-picture">プロフィール画像:</label>
+        <input type="file" id="profile-picture">
+      </div>
+      <div class="button-container">
+        <button type="submit" class="save-button">保存</button>
+        <button type="button" id="cancel-button" class="cancel-button">キャンセル</button>
+        <a href="login.html" class="login-link">ログイン画面に戻る</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

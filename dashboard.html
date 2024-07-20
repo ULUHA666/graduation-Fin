@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ユーザー情報</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/dashboard.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>ユーザー情報</h1>
+    <div class="user-info">
+      <p><strong>Email:</strong> <span id="user-email"></span></p>
+      <p><strong>名前:</strong> <span id="user-name"></span></p>
+      <p><strong>住所:</strong> <span id="user-address"></span></p>
+      <p><strong>プロフィール画像:</strong><br> <img id="user-profile-picture" src="" alt="プロフィール画像"></p>
+    </div>
+    <!-- 修正ボタンを追加 -->
+    <div class="button-container">
+      <button id="edit-profile-button" class="edit-profile-button">情報を修正する</button>
+      <button id="logout-button" class="logout-button">ログアウト</button>
+    </div>
+  </div>
+</body>
+</html>
