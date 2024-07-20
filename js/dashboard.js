@@ -6,14 +6,14 @@ import { getStorage, ref as storageRef, getDownloadURL } from "https://www.gstat
 
 // Firebase SDKの設定情報を貼り付ける
 const firebaseConfig = {
-  apiKey: "AIzaSyDP7A2GI2XuDInBpA5vu3yDQ4rkFZGM80o",
-  authDomain: "graduation1-ba2e0.firebaseapp.com",
-  databaseURL: "https://graduation1-ba2e0-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "graduation1-ba2e0",
-  storageBucket: "graduation1-ba2e0.appspot.com",
-  messagingSenderId: "812807619843",
-  appId: "1:812807619843:web:fbf8a05c7d92ca9cf0d536",
-  measurementId: "G-MVH6M1D80K"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
